@@ -2,14 +2,14 @@ import React from "react";
 import Container from "../../../components/Container/Container";
 import Title from "../../../components/Title/Title";
 import { FaCode } from "react-icons/fa";
-import { AiOutlineCode } from "react-icons/ai";
+import { AiOutlineCode, AiOutlineCodepen } from "react-icons/ai";
 
 const Skills = () => {
   return (
     <div>
       <Container>
         <Title title={"skills"} />
-        <div className="grid md:grid-cols-3">
+        <div className="grid md:grid-cols-3 shadow-md">
           <div className="flex flex-col gap-5 items-center overflow-hidden border py-16 px-10">
             <div className="bg-green-300 rounded-full p-5">
               <FaCode className="text-5xl" />
@@ -29,7 +29,6 @@ const Skills = () => {
             <div className="text-center">
               <h2 className="text-green-500 text-lg font-bold">Dev Tools:</h2>
               <div>
-                <p>Visual Studio Code</p>
                 <p>GitHub</p>
                 <p>Netlify</p>
                 <p>Surge</p>
@@ -69,7 +68,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col gap-5 items-center overflow-hidden border py-16 px-10">
             <div className="bg-green-300 rounded-full p-5">
-              <FaCode className="text-5xl" />
+              <AiOutlineCodepen className="text-5xl" />
             </div>
             <h2 className="text-3xl font-bold">Frontend Development</h2>
             <p className="text-center">
@@ -81,18 +80,16 @@ const Skills = () => {
             </p>
             <div className="text-center">
               <h2 className="text-green-500 text-lg font-bold">Skills:</h2>
-              <p>HTML, CSS, Bootstrap, TailwindCss, JavaScript, Git, React</p>
+              <p>Version Control, Debugging, Responsive Design, Adobe illustrator, Chrome Dev Tools</p>
             </div>
             <div className="text-center">
               <h2 className="text-green-500 text-lg font-bold">Dev Tools:</h2>
               <div>
+                <p>ChatGPT</p>
                 <p>Visual Studio Code</p>
-                <p>GitHub</p>
-                <p>Netlify</p>
-                <p>Surge</p>
-                <p>ESLint</p>
-                <p>Prettier</p>
-                <p>Postman</p>
+                <p>Notion</p>
+                <p>Canva</p>
+                <p>Camtasia</p>
               </div>
             </div>
           </div>

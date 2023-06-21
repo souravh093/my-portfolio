@@ -11,7 +11,7 @@ const About = () => {
           <div>
             <img className="w-full" src={aboutImg} alt="" />
           </div>
-          <did>
+          <div>
             <h3 className="text-3xl font-bold mb-4">Hi, I am <span className="text-green-500">Sourave Halder</span> </h3>
             <div>
               <ul className="list-disc ml-5 flex flex-col gap-2 text-lg">
@@ -54,7 +54,7 @@ const About = () => {
               </ul>
             </div>
             <button className="bg-green-300 py-2 px-5 rounded-md mt-5 transition hover:bg-green-400 ">Download Resume</button>
-          </did>
+          </div>
         </div>
       </Container>
     </div>
