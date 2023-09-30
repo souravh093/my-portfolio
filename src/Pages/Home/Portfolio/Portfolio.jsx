@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <Container>
       <Title title={"My Recent Work"} />
-      <div className="grid gap-5 md:grid-cols-3">
+      <div className="grid gap-5 md:grid-cols-3 items-center">
         <PortfolioCard imageSrc={portfolio1} link={"https://musicmaestro-2b4f6.web.app/"} />
         <PortfolioCard imageSrc={portfolio2} link={"https://toy-tree.web.app/"} />
         <PortfolioCard imageSrc={portfolio3} link={"https://chip-recipe-client.web.app/"} />

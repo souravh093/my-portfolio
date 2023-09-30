@@ -4,7 +4,7 @@ import Container from "../../../components/Container/Container";
 import aboutImg from "../../../assets/about.jpg";
 const About = () => {
   return (
-    <div className="bg-green-50 pb-20">
+    <div className="bg-green-50 pb-20" id="about">
       <Container>
         <Title title={"about me"} />
         <div className="grid grid-cols-2 items-center gap-10">

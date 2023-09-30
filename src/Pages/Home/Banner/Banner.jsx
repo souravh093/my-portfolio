@@ -26,7 +26,7 @@ const Banner = () => {
   }, []);
   return (
     <Container>
-      <div className="flex relative gap-3 h-[calc(100vh-92px)] items-center justify-center flex-col ">
+      <div className="flex relative gap-3 h-[calc(100vh-92px)] items-center justify-center flex-col">
         <img
           className="border-8 border-green-300 w-40 h-40 object-cover rounded-full bg-red-50"
           src={image}
